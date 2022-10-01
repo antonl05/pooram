@@ -3,38 +3,45 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="index.css">
-    <link href="//db.onlinewebfonts.com/c/107eaa009712278feeb98175016a8a81?family=Papyrus" rel="stylesheet" type="text/css"/>
-    <title>Thrissur Pooram</title>
-  </head>
 
   <body>
     <style>
+      @import url(http://db.onlinewebfonts.com/c/107eaa009712278feeb98175016a8a81?family=Papyrus);
       body {
+        padding: 0;
         font-family: Papyrus, sans-serif;
+        font-weight: 900;
+        font-size: 105%;
         background-size: cover;
         animation-name: background-image-rotate;
         animation-duration: 30s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
+        background-attachment: fixed;
       }
 
       #top-box {
         display: flex;
+        background-color: black;
         flex-direction: row;
         justify-content: space-between;
         gap: 10%;
       }
+      nav {
+        top: 0;
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+      }
       .top-each-box {
-        background-color:  red;
         text-align: center;
-        width: 10%;
+        width: 7%;
+        border-radius: 20px;
         height: auto;
       }
       .top-each-box:hover {
-        background-color: hotpink;
-        color: green;
-      }
-
+        background-color: navy;
+      } 
       h1 {
         text-align: center;
       }
