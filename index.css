@@ -1,16 +1,10 @@
+html {overflow-x: hidden}
 body {
-  padding: 0;
-  font-family:"Times New Roman", sans-serif;
   font-weight: 900;
-  overflow-x:hidden;
   overflow-y: scroll;
-  font-size: 105%;
   background-size: cover;
-  animation-name: background-image-rotate;
-  animation-duration: 30s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  background-attachment: fixed;  
+  animation:background-image-rotate 15s linear 0s infinite alternate;
+  background-attachment: fixed;
 }
 
 #top-box {
@@ -22,9 +16,8 @@ body {
 }
 nav {
   top: 0;
-  z-index: 9999;
+  z-index: 10;
   left: 0;
-  overflow: hidden;
   position: fixed;
   width: 100%;
 }
@@ -36,27 +29,22 @@ nav {
   height: 50%;
 
 }
-.top-each-box:hover {
-  background-color: crimson;
-} 
-h1 {
-  text-align: center;
-}
+.top-each-box:hover {background-color: crimson}
+h1 {text-align: center}
 img {
   margin:0 auto;
-  justify-content: center;
-  display:block;
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
 }
-a {color:white;}
-a:link {text-decoration: none;}
+a {color:white}
+a:link {text-decoration: none}
 
 #main-text {
   width: 100vw;
+  height: auto;
   margin: 0 auto;
   text-align:center;
   color: white;
   top: 25%;
-  position: fixed;
+  overflow-x:hidden;
 }
