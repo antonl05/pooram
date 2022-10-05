@@ -1,8 +1,11 @@
-html {overflow-x: hidden}
+html {
+  overflow-x: hidden
+}
+
 body {
   overflow-y: scroll;
   background-size: cover;
-  animation:background-image-rotate 15s linear 0s infinite alternate;
+  animation: background-image-rotate 15s linear 0s infinite alternate;
   background-attachment: fixed;
   display: flex;
   flex-direction: row;
@@ -15,8 +18,9 @@ body {
   background-color: black;
   flex-direction: row;
   justify-content: space-evenly;
-  height:5%;
+  height: 5%;
 }
+
 nav {
   font-weight: 900;
   top: 0;
@@ -25,6 +29,7 @@ nav {
   position: fixed;
   width: 100%;
 }
+
 .top-each-box {
   text-align: center;
   width: 7%;
@@ -32,22 +37,35 @@ nav {
   transform: translate(0, 50%);
   height: 50%;
 }
-.top-each-box:hover {background-color: crimson}
-h1 {text-align: center}
-img {
-  margin:0 auto;
-  width: 60%;
-  height: 60%;
+
+.top-each-box:hover {
+  background-color: crimson
 }
-a {color:white}
-a:link {text-decoration: none}
+
+h1 {
+  text-align: center
+}
+
+img {
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
+}
+
+a {
+  color: white
+}
+
+a:link {
+  text-decoration: none
+}
 
 #main-text {
   width: 90%;
   margin: 0 auto;
-  text-align:center;
+  text-align: center;
   color: white;
   top: 25%;
   position: fixed;
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
